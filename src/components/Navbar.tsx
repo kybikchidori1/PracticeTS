@@ -9,10 +9,10 @@ export const Navbar: React.FC = () => (
       </a>
       <ul className="right hide-on-med-and-down">
         <li>
-          <NavLink to="/">Список дел</NavLink>
+          <NavLink to="/practicets/*">Список дел</NavLink>
         </li>
         <li>
-          <NavLink to="/about">Информация</NavLink>
+          <NavLink to="/practicets/about">Информация</NavLink>
         </li>
       </ul>
     </div>

@@ -11,7 +11,7 @@ export const AboutPage: React.FC = () => {
         voluptatibus voluptas reprehenderit quaerat consequuntur, quae pariatur
         saepe. Facilis, porro!
       </p>
-      <button className="btn" onClick={() => navigate("/")}>
+      <button className="btn" onClick={() => navigate("/practicets/*")}>
         Обратно к списку
       </button>
     </>
